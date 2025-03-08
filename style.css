@@ -30,7 +30,7 @@ header {
 nav ul {
   list-style-type: none;
   margin: 0;
-  
+  text-align: center;
 }
 nav ul li a {
   display: block;
@@ -43,6 +43,13 @@ header .logo {
 img {
   max-width: 100%;
   border-radius: 5px;
+  padding-top: 15px;
+}
+section {
+  margin: 15px auto;
+}
+.about h2 {
+ margin-top: 0;
 }
 @media screen and (min-width: 400px) {
  body {
@@ -56,9 +63,16 @@ img {
  }
   section {
     display: flex;
-    height: 25vh;
+    justify-content: space-evenly;
+    margin: 15px auto;
+    padding: 15px;
   }
-  img {
-    width: 50vw;
+  section .text, section img {
+    width: 50%;
+
+  }
+  section img {
+    width: 40%;
+    height: auto;
   }
 }
