@@ -40,4 +40,8 @@ The image is a Christmas-themed website design, but the text is not fully clear.
    - Links: Christmas Gift, Our Services, Our Company  
    - Copyright Text  
 
-If you'd like me to recreate the text or structure in HTML format for practice, let me know!
+If you'd like me to recreate the text or structure in HTML format for practice, let me know!.
+Font Sizes 
+large text: 30pt
+small: 15pt
+button: 17pt

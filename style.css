@@ -3,9 +3,61 @@
 }
 body {
     font-size: 15pt;
-    font-family: Poppins;
+    font-family: "Poppins" Arial, Helvetica, sans-serif;
     background-color: #fff;
+}
+p {
+  font-family: 15pt;
+  margin-top: 0;
+}
+h1 {
+  font-size: 30pt;
+  margin-bottom: 0;
+  line-height: 3.5pc;
+}
+button {
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 17px;
+  border: none;
+  background-color: #f00;
+  font-weight: bold;
+}
+header {
+  display: flex;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  
+}
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+header .logo {
+  margin-right: auto;
 }
 img {
   max-width: 100%;
+  border-radius: 5px;
+}
+@media screen and (min-width: 400px) {
+ body {
+   padding: 10px 20px;
+ }
+ nav ul {
+   display: flex;
+ }
+ nav ul li a {
+   padding: 10px 20px;
+ }
+  section {
+    display: flex;
+  }
+  img {
+    width: 50vw;
+  }
 }
