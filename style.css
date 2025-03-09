@@ -26,16 +26,29 @@ button {
 }
 header {
   display: flex;
+  
 }
 nav ul {
   list-style-type: none;
   margin: 0;
+  padding: 0;
   text-align: center;
+  position: absolute;
+  left: 5px;
+  background-color: white;
+  width: 95%;
+  box-shadow: 0 0 5px lightslategray;
+  border-radius:  15px;
+}
+.a-last-child {
+  border: none;
 }
 nav ul li a {
+  padding: 20px;
   display: block;
   text-decoration: none;
   color: #000;
+  border-bottom: 1px solid grey;
 }
 header .logo {
   margin-right: auto;
@@ -57,19 +70,25 @@ section {
  }
  nav ul {
    display: flex;
- }
+   position: static;
+  }
  nav ul li a {
    padding: 10px 20px;
+   border: none;
  }
   section {
     display: flex;
     justify-content: space-evenly;
     margin: 15px auto;
     padding: 15px;
+    overflow: hidden;
+    /*border: 1px solid red;*/
   }
-  section .text, section img {
+  section img {
     width: 50%;
-
+  }
+  section .text {
+    width: 40%;
   }
   section img {
     width: 40%;
