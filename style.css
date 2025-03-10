@@ -40,7 +40,10 @@ nav ul {
   width: 95%;
   box-shadow: 0 0 5px lightslategray;
   border-radius:  15px;
-  height: 0;
+  transition: top 0.5s linear;
+  top: 0;
+}
+nav .navClass {
   top: -100%;
 }
 .a-last-child {
@@ -57,7 +60,10 @@ header .logo {
   margin-right: auto;
 }
 header .icon {
-  padding: 10px;
+  padding: 15px;
+  z-index: 2;
+  position: relative;
+  font-size: 20pt;
 }
 img {
   max-width: 100%;
