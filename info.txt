@@ -45,3 +45,16 @@ Font Sizes
 large text: 30pt
 small: 15pt
 button: 17pt
+
+
+Here are a few options:
+
+
+1. "Stay updated! Subscribe now and get the latest news, updates, and exclusive content delivered right to your inbox!"
+2. "Join our community! Subscribe today and be the first to know about new releases, promotions, and behind-the-scenes stories!"
+3. ""
+4. "Stay ahead of the curve! Subscribe today and receive the latest insights, news, and trends delivered straight to your inbox!"
+5. "Become a part of our story! Subscribe now and get exclusive updates, behind-the-scenes content, and special perks!"
+
+
+Feel free to pick the one that resonates with your brand's voice and style!
